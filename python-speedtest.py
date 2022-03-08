@@ -24,13 +24,13 @@ log.addHandler(stream)
 from datetime import datetime
 
 import csv
-fields = ['Time', 'Download', 'Upload', 'Ping']
+# fields = ['Time', 'Download', 'Upload', 'Ping']
 filename = "log.csv"
 
 s = speedtest.Speedtest()
 with open(filename, 'a', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(fields)
+    # csvwriter.writerow(fields)
     while 1:
         log.info('Testing..')
         # s.get_servers()
