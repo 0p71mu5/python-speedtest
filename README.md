@@ -11,4 +11,4 @@ perform speedtest in certain intervals using python
 The script will run speedtest every 5 mins, you can increase this time by increasing the sleep duration in script.
 It will save log data in log.txt
 
-Saving data to csv and creating graph is not implemented yet.
+Saving data to csv is implemented. Data can be found in `data.csv` file and creating graph is not implemented yet.
