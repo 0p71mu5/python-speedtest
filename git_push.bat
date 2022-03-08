@@ -1,4 +1,5 @@
 echo Time,Download,Uplaod,Ping > log.csv
+echo '' > log.txt
 git pull
 ::echo "[i] Initializing Git"
 git init
