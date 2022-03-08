@@ -39,5 +39,5 @@ while 1:
     log.info("[+] Upload Speed: %s Mbps", upload)
     log.info("[+] Ping: %s", ping)
     log.info("[+] ISP: %s, %s", client,country)
-    # time.sleep(300)
+    time.sleep(300)
 
